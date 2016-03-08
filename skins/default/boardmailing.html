@@ -11,5 +11,5 @@
 <!--@elseif($widget_info->is_Member == 'A')-->
 <a id="ggboardmailing_btn" href="#" class="xet_btn medium asbestos">{$widget_info->is_Count}명 소식 받는중</a>
 <a id="ggboardmailing_btn" href="#" onclick="javascript:if(confirm('정말 탈퇴하시겠습니까?')) document.location.href='{getUrl('','mid',$mid,'ggstatus','delete','document_srl',Context::get('document_srl'),'comment_srl',Context::get('comment_srl'))}'; else return false;" class="xet_btn medium red">{$widget_info->after_btn_name}</a>
-<!--@endif-->
+<!--@end-->
 </div>
